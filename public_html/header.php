@@ -3,8 +3,8 @@
 echo "<header class='header'>
 		<div class='header_inner d-flex flex-row align-items-center justify-content-start'>
 			<div class='logo text-center'>
-				<a href='index.php'><img src='images/logo-copaups-top.webp' height='40px' class='my-1'></a><br>
-				<a id='logo_gob' href='http://www.salta.gov.ar/organismos/ministerio-de-infraestructura/35' target='_blank'><img src='images/LOGONUEVO.png' width='200'></a>
+				<a href='index.php'><img src='images/logo-copaups-top.webp' height='40px' class='my-1' alt='CoPAUPS Logo'></a><br>
+				<a id='logo_gob' href='https://www.salta.gov.ar/organismos/ministerio-de-infraestructura/35' target='_blank'><img src='images/LOGONUEVO.png' width='200' alt='Logo Gobierno de Salta'></a>
 			</div>
 			<nav class='main_nav compensate-for-scrollbar' >
 				<ul>

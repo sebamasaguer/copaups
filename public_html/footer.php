@@ -20,13 +20,13 @@ echo "
 		<div class='container'>
 			<div id='client-carousel' class='client-slider' >
 				<div class='single-brand'>
-					<a href='http://www.salta.gov.ar' target='_blank'>
-						<img src='images/logoGobiernoSalta300px.png' alt=''>
+					<a href='https://www.salta.gov.ar' target='_blank'>
+						<img src='images/logoGobiernoSalta300px.png' alt='Gobierno de Salta'>
 					</a>
 				</div>
 				<div class='single-brand'>
-					<a href='http://www.salta.gov.ar/organismos/ministerio-de-infraestructura/35' target='_blank'>
-						<img src='images/LOGONUEVO.jpg' alt=''>
+					<a href='https://www.salta.gov.ar/organismos/ministerio-de-infraestructura/35' target='_blank'>
+						<img src='images/LOGONUEVO.jpg' alt='Ministerio de Infraestructura'>
 					</a>
 				</div>
 				<div class='single-brand'>
@@ -35,8 +35,8 @@ echo "
 					</a>
 				</div>
 				<div class='single-brand'>
-					<a href='http://www.copaipa.org.ar/' target='_blank'>
-						<img src='images/LogoCopaipa300px.png' alt=''>
+					<a href='https://www.copaipa.org.ar/' target='_blank'>
+						<img src='images/LogoCopaipa300px.png' alt='COPAIPA'>
 					</a>
 				</div>
 				
