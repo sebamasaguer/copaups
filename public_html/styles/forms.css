@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+p{
+	font-size: 12px;
+}
+
+form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
+	form input[type="number"],
+	form select,
+	form textarea {
+		
+		
+		border: 2px solid #000000;
+		box-shadow: inset 0px 0px 1px 0px #a0a1a7;
+		/* border-radius: 0.35em;
+*/		width: 60%;
+		padding: 0.75em 1em 0.75em 1em;
+	}
+
+.contact-form {
+	padding-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	font-size: 13px;
+	border: none;
+	background: #f0f0f0;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+
+.contact-form textarea {
+	height: 200px;
+	margin-bottom: 30px;
+	font-style: initial;
+}
+
+.contact-form ::-webkit-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form :-ms-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form ::-ms-input-placeholder {
+	font-style: italic;
+}
+
+.contact-form ::placeholder {
+	font-style: italic;
+}
+
+.map-area {
+	height: 685px;
+	width: 100%;
+	display: block;
+	background: #f0f0f0;
+	margin-bottom: 2px;
+}
