@@ -10,9 +10,18 @@
 	$db_name = 'c1520901_copaups';
 
 
-    $con = mysqli_connect($db_host,$db_user,$db_pass,$db_name) or die("Problemas en la base de datos");
+    try {
+        $con = @mysqli_connect($db_host,$db_user,$db_pass,$db_name);
+    } catch (Exception $e) {
+        $con = null;
+    }
+    if (!$con) {
+        $con = null;
+    }
 
-    mysqli_query($con,"SET NAMES 'utf8'");
+    if ($con) {
+        mysqli_query($con,"SET NAMES 'utf8'");
+    }
 
 
 ?>

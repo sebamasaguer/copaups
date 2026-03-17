@@ -9,7 +9,7 @@ echo "<div class='menu d-flex flex-column align-items-end justify-content-start 
 <hr>
 
 <li> <a href='injerencias.php'>Injerencias</a></li>
-<li><li> <a href='consultaPrevia.php'>Consulta Previa</a></li>
+<li> <a href='consultaPrevia.php'>Consulta Previa</a></li>
 <li>  <a href='cnoa.php'>Certificado de No Objeción</a></li>
 <li><a href='anexoIV.php'>Compra Inmueble de Interés Arquitectónicos</a></li>
 <li><a href='anexoVI.php'>Formulario Escribano Inmueble</a></li>

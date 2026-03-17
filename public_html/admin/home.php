@@ -238,7 +238,7 @@
 
 									<!-- Options Item -->
 									<div class="col-lg-3">
-										<a href="cnoa.php">
+										<a href="adminObras.php">
 											<div class="options_item d-flex flex-row align-items-center justify-content-start">
 											<span style="font-size: 48px; color: #ACA39A;">
 													<i class="fas fa-image"></i>

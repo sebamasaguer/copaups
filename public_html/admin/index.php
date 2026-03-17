@@ -36,7 +36,7 @@ if(isset($_SESSION['sess_userId'])) {
 	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="styles/checkout.css">
 	<link rel="stylesheet" type="text/css" href="styles/checkout_responsive.css">
-	<link rel="stylesheet" type="text/css" href="fancybox/dist/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="../fancybox/dist/jquery.fancybox.css">
 	<style type="text/css">
 	
 	.arrivals
@@ -216,7 +216,7 @@ if(isset($_SESSION['sess_userId'])) {
 	</div>
 
 	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="fancybox/dist/jquery.fancybox.js"></script>
+	<script src="../fancybox/dist/jquery.fancybox.js"></script>
 	<!-- <script src="styles/bootstrap4/popper.js"></script> -->
 	<!-- <script src="styles/bootstrap4/bootstrap.min.js"></script> -->
 	<script src="plugins/easing/easing.js"></script>
