@@ -20,13 +20,17 @@ Luego, abra su navegador y visite: `http://localhost:8000`
 ### 2. Configuración de la Base de Datos (Opcional)
 Si desea que las noticias y la galería funcionen con datos reales:
 1. Importe su base de datos a un servidor MySQL local.
-2. Edite el archivo `public_html/conection.php` con sus credenciales locales:
+2. Edite los archivos de conexión con sus credenciales locales:
+   - `public_html/conection.php` (para el sitio principal)
+   - `public_html/admin/conection.php` (para el panel de administración)
+
+   Deberá actualizar las siguientes variables:
    - `$db_host = 'localhost';`
    - `$db_user = 'su_usuario';`
    - `$db_pass = 'su_contraseña';`
    - `$db_name = 'su_base_de_datos';`
 
-**Nota:** He actualizado `conection.php` para que el sitio no falle (pantalla en blanco) si la base de datos no está conectada. Podrá navegar la estructura del sitio, aunque no verá el contenido dinámico.
+**Nota:** He actualizado ambos archivos de conexión para que el sitio no falle (pantalla en blanco) si la base de datos no está conectada. Podrá navegar la estructura del sitio, aunque no verá el contenido dinámico.
 
 ## Cambios Realizados en este Análisis
 - Se corrigieron rutas rotas en el panel de administración (`admin/`).
