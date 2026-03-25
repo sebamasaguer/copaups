@@ -196,17 +196,34 @@
 					<br>
 					<img src="images/nuevoPrac.jpg" class="img-fluid max-width: 100%">
 					<br><br><br>
-					<h3>PRAC Revisión 1</h3>
-					<div class='embed-responsive' style='padding-bottom:150%'>
-						<object data='docs/PRACREVISION1.pdf' type='application/pdf' width='100%' height='100%'></object>
-					</div>
-					<br> <br>
+					<?php
+					include('conection.php');
+					$sql = "SELECT * FROM `normativas` ORDER BY id DESC";
+					$cons = mysqli_query($con, $sql);
 
-					<h3>Decreto Nº 392-19</h3>
-					<div class='embed-responsive' style='padding-bottom:150%'>
-						<object data='docs/decreto.pdf' type='application/pdf' width='100%' height='100%'></object>
-					</div>
-					<br> <br>
+					if ($cons && mysqli_num_rows($cons) > 0) {
+						while ($f = mysqli_fetch_array($cons)) {
+							echo "<h3>".$f['titulo']."</h3>";
+							echo "<div class='embed-responsive' style='padding-bottom:150%'>
+									<object data='".$f['archivo']."' type='application/pdf' width='100%' height='100%'></object>
+								</div>
+								<br> <br>";
+						}
+					} else {
+						// Fallback if no normativas in DB
+						echo "<h3>PRAC Revisión 1</h3>
+						<div class='embed-responsive' style='padding-bottom:150%'>
+							<object data='docs/PRACREVISION1.pdf' type='application/pdf' width='100%' height='100%'></object>
+						</div>
+						<br> <br>
+
+						<h3>Decreto Nº 392-19</h3>
+						<div class='embed-responsive' style='padding-bottom:150%'>
+							<object data='docs/decreto.pdf' type='application/pdf' width='100%' height='100%'></object>
+						</div>
+						<br> <br>";
+					}
+					?>
 
 					<br>
 
