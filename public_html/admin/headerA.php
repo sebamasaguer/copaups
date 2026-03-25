@@ -7,7 +7,7 @@ echo "<header class='header'>
 				<ul>
 					<li><a href='home.php'>Inicio</a></li>
 							<li><a href='admiNoticias.php'>Noticias</a></li>
-							<li><a href='home.php'>Normativas</a></li>
+							<li><a href='adminnormativa.php'>Normativas</a></li>
 							<li><a href='adminGaleria.php'>Galeria</a></li>
 							<li><a href= 'adminObras.php'>Obras</a></li>
 							<li><a href='logout.php'>Salir</a></li>
